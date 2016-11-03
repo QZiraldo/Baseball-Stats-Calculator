@@ -1,0 +1,6 @@
+c:\users\quirico\documents\visual studio 2015\Projects\Baseball Stats Calculator\Baseball Stats Calculator\bin\Debug\Baseball Stats Calculator.exe.config
+c:\users\quirico\documents\visual studio 2015\Projects\Baseball Stats Calculator\Baseball Stats Calculator\bin\Debug\Baseball Stats Calculator.exe
+c:\users\quirico\documents\visual studio 2015\Projects\Baseball Stats Calculator\Baseball Stats Calculator\bin\Debug\Baseball Stats Calculator.pdb
+c:\users\quirico\documents\visual studio 2015\Projects\Baseball Stats Calculator\Baseball Stats Calculator\obj\Debug\Baseball Stats Calculator.csprojResolveAssemblyReference.cache
+c:\users\quirico\documents\visual studio 2015\Projects\Baseball Stats Calculator\Baseball Stats Calculator\obj\Debug\Baseball Stats Calculator.exe
+c:\users\quirico\documents\visual studio 2015\Projects\Baseball Stats Calculator\Baseball Stats Calculator\obj\Debug\Baseball Stats Calculator.pdb
