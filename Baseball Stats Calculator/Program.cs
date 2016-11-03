@@ -24,27 +24,35 @@ namespace Baseball_Stats_Calculator     //Quirico Ziraldo 11/2/16
                 int sumHits = 0;
 
 
-                //double[,] allStats = new double[2, numHitters];                //create arrays
-
+                double[,] allStats = new double[2, numHitters];                //create arrays
+                int[] battingResults = new int[atBats];
                 //for (int i = 1; i < numHitters; i++)
                 //{
                 //    allStats[, 1] = battingAverage;
                 //    allStats[i,] = sluggingPercentage;
                 //}
- 
 
 
 
-               int[] battingResults = new int[atBats];
+
+
+
 
 
                 Console.WriteLine("\n0= Out, 1= Single, 2= Double, 3= Triple, 4= Long Ball\n");
 
-                for (int i = 0; i < atBats; i++)                                // Input loop to colect results
+                int n = 0;
+                do
                 {
-                    Console.Write("result for at bat {0}: ", i + 1);
-                    battingResults[i] = int.Parse(Console.ReadLine());
-                }
+                    n++;
+                    for (int i = 0; i < atBats; i++)                                // Input loop to colect results
+                    {
+                        Console.Write("result for at bat {0}: ", i + 1);
+                        battingResults[i] = int.Parse(Console.ReadLine());
+                    }
+                } while (n < numHitters);
+
+                
                 
 
                 for (int i = 0; i < battingResults.Length; i++)                 //taking values for hits and Total bases from input array
